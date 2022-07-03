@@ -1,0 +1,80 @@
+That's the form of TF xml files
+<annotation>
+	<folder>Project Images</folder>
+	<filename>20220303_162058_032.jpg</filename>
+	<path>E:\train2\20211209_121239.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2160</width>
+		<height>2160</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1310</xmin>
+			<ymin>317</ymin>
+			<xmax>2160</xmax>
+			<ymax>2160</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>154</xmin>
+			<ymin>261</ymin>
+			<xmax>1061</xmax>
+			<ymax>2086</ymax>
+		</bndbox>
+	</object>
+</annotation>
+
+That's Pytorch
+<annotation>
+    <filename>20220703-125000.jpg</filename>
+    <folder>gp</folder>
+    <source>
+        <database>gp</database>
+        <annotation>custom</annotation>
+        <image>custom</image>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>Person</name>
+        <pose>unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>208</xmin>
+            <ymin>86</ymin>
+            <xmax>510</xmax>
+            <ymax>698</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>Person</name>
+        <pose>unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>689</xmin>
+            <ymin>68</ymin>
+            <xmax>969</xmax>
+            <ymax>698</ymax>
+        </bndbox>
+    </object>
+</annotation>
